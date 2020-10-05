@@ -31,7 +31,7 @@ class SkillActivity : BaseActivity() {
         skill = "baller"
     }
 
-    fun onFinishClicked(view: View) {
+    fun onFinishedClicked(view: View) {
         if (skill != "") {
             val finishActivity = Intent(this, FinishActivity::class.java)
             finishActivity.putExtra(EXTRA_LEAGUE, league)
